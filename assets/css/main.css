@@ -6,48 +6,57 @@ body {
 	background-color: white; /* white, #FFFFFF */
 	padding: 2em;
 	margin: 0;
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Roboto", sans-serif;
 }
 
 p {
 	margin: 0 0 1em 0;
-	max-width: 30em;
+	/*max-width: 30em;*/
+	font-weight: 400;
+	font-size: 20px;
 }
 
 h1 {
 	margin: 0;
 	font-size: 3em;
+	font-weight: 900;
+	
 }
 
 h4 {
 	margin: 0;
+	font-weight: 900;
 }
 
 header,
 section {
 	display: grid;
-	grid-template-columns: 1fr 4fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 	margin-bottom: 2em;
 	padding-top: 0.25em;
 }
 
-.filetto {
-	border-top: solid 1px black;
+
+
+.s2 {
+	grid-column: span 2;
 }
 
-img {
-	width: 100%;
+.s4 {
+	grid-column: span 4;
+}
+
+.s3 {
+	grid-column: span 3;
 }
 
 .titolo-sezione {
 	margin-right: 1em;
 }
 
-.contenuto-sezione {
-}
 
 .contenitore {
-	max-width: 54em;
+	/*max-width: 54em;*/
 }
 
 /* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */

@@ -4,22 +4,81 @@
 
 body {
 	background-color: white; /* white, #FFFFFF */
-	padding: 2em;
-	margin: 0;
-	font-family: "Roboto", sans-serif;
+	padding: 0.2em;
+	margin-right: 1em;
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 100;
+}
+
+footer {
+	font-size: 12px;
+	font-weight: 100;
+	line-height: 1.2;
+	position: 
+}
+
+header {
+	font-size: 16px;
+	font-weight: 100;
+	line-height: 1.5;
+	position: fixed;
+	width: 99%
+  
+	
+}
+
+hr{
+	height: 2px;
+	background: black;
+	border: none;
+	margin-left: -0px;
+	margin-right: -500px;
+	margin-top: 5px;
+	margin-bottom: -10px;
+}
+
+img {
+	height: 60px;
+	margin-left: -10px;
+}
+
+.gg{
+	background-color: aqua;
+}
+
+.txtcatalogo {
+	font-size: 50px;
+}
+a:link {
+	text-decoration: none;
+	color: black;
+}
+
+a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	text-decoration: none;
+	color: black;
+	font-weight: 900;
+
 }
 
 p {
-	margin: 0 0 1em 0;
 	/*max-width: 30em;*/
 	font-weight: 400;
 	font-size: 20px;
+	margin:0px;
+	display: inline
 }
 
 h1 {
-	margin: 0;
-	font-size: 3em;
+	
+	font-size: 20em;
 	font-weight: 900;
+	margin:0px;
 	
 }
 
@@ -29,35 +88,82 @@ h4 {
 }
 
 header,
-section {
+section,
+footer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
-	margin-bottom: 2em;
-	padding-top: 0.25em;
+	font-weight: 400;
+
 }
 
+.txtright {
+	 text-align: right;
+}
+.txtcenter {
+	 text-align: center;
+}
 
+.imghome {
+		/*border: 1px solid #ddd;*/
+		/*border-radius: 4px;*/
+		/*padding: 5px;*/
+		height: 150px;
+}
+
+.imgchapter {
+	height: 220px;
+}
 
 .s2 {
 	grid-column: span 2;
-}
-
-.s4 {
-	grid-column: span 4;
 }
 
 .s3 {
 	grid-column: span 3;
 }
 
+.s4 {
+	grid-column: span 4;
+}
+
+.s5 {
+	grid-column: span 5;
+}
+
+.s6 {
+	grid-column: span 6;
+}
+
+.s7 {
+	grid-column: span 7;
+}
+
+.s8 {
+	grid-column: span 8;
+}
+
+.s9 {
+	grid-column: span 9;
+}
+
+.s10 {
+	grid-column: span 10;
+}
+
+
 .titolo-sezione {
 	margin-right: 1em;
 }
 
+.margine-index{
+	margin-right: 1em;
+}
 
 .contenitore {
 	/*max-width: 54em;*/
 }
+
+
 
 /* -- breakpoint: schermi piccoli, larghezza massima 500 pixel -- */
 

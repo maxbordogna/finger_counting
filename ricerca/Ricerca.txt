@@ -86,6 +86,55 @@ Nuova Guinea
 In Nuova Guinea vi sono diversi sistemi utilizzati che coinvolgono tutto il corpo assegnando un numero specifico ad una diverse zona. Uno di essi è caratteristico della lingua dei Foe che funziona con l'indicare una determinata parte del corpo assegnata ad un numero specifico, si parte indicando il mignolo della mano sinistra che indica il numero 1 si completa la mano, si sale per il braccio verso il viso e si scende fino al mignolo opposto per un totale di 37 punti. Un'altro sistema prevede il coinvolgimento di tutte le zone del corpo dalla testa ai piedi e permette di contare fino al 41 rappresentato dal mignolo del piede sinistro. 
 
 
+---------- Sistema binario ----------
+Il sistemi di conteggio con le dita binario è probabilmente il sistema utilizzato che permette di raggiungere il numero (decimale) più elevato, viene utilizzato per contare ed effettuare operazioni matematiche in base 2.
+Il sistema binario come dice già il nome si basa su un sistema in base due in cui ogni cifra ha due possibili stati: 0 e 1. Ogni dito quindi se alzato rappresenta il valore 1 e se abbassato rappresenta il valore 0. 
+Il valore decimale più alto comunicabile attraverso le 2 mani è il 1023 con tutte le dita sollevate. 
+
+Le dieci dita da destra a sinistra rappresentano i seguenti valori decimali:
+
+palmi delle mani rivolti verso se stessi:
+001 pollice  Dx
+002 indice   Dx
+004 medio    Dx
+008 anulare  Dx
+016 mignolo  Dx
+032 mignolo  Sx
+064 anulare  Sx
+128 medio    Sx
+256 indice   Sx
+512 pollice  Sx
+
+dorsi delle mani rivolti verso se stessi:
+001 mignolo  Dx
+002 anulare  Dx
+004 medio    Dx
+008 indice   Dx
+016 pollice  Dx
+032 pollice  Sx
+064 indice   Sx
+128 medio    Sx
+256 anulare  Sx
+512 mignolo  Sx
+
+Le dieci dita rappresentano quindi le dieci cifre del sistema binario, qualche esempio con i palmi rivolti verso se stessi: 
+binario 	decimale 	dita
+0000000000	0		pugni chiusi
+
+binario 	decimale 	dita
+0000000001	1		pollice Dx sollevato
+
+binario 	decimale 	dita
+0000001100	12		medio e anulare Dx sollevati
+
+binario 	decimale 	dita
+0010001001	137		medio Sx, anulare e pollice Dx sollevati
+
+binario 	decimale 	dita
+1000100011	547		pollice e mignolo Sx, pollice e indice Dx sollevati
+
+
+
 ---------- CHT ----------
 Western finger counting: In Western cultures, people typically use their fingers to count up from one to ten. They may start with their thumb and count up to their pinky finger, or they may start with their index finger and count up to their pinky finger, with each finger representing a different number.
 
@@ -209,6 +258,9 @@ https://www.researchgate.net/publication/331596384_Offline_Gesture_Recognition_S
 
 Finger Counting Habits in Middle-Eastern and Western
 https://www.researchgate.net/publication/200744217_Finger_Counting_Habits_in_Middle_Eastern_and_Western_Individuals_An_Online_Survey
+
+Differences in Finger-Counting Habits 
+https://d-nb.info/1229023267/34
 
 Tally systems of the upper septic and central new guinea - Barry Craig
 https://static1.squarespace.com/static/576ed271bebafbef665249c0/t/58b3504346c3c45d74e822bb/1488146500258/17-02+TallySystems.pdf

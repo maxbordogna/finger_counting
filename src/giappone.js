@@ -53,6 +53,7 @@ async function draw() {
 
 			const palmoA = manoA.keypoints[0]
 			const centroA = manoA.keypoints[5]
+			const centroB = manoA.keypoints[13]
 			
 			
 			const indicepalmo = dist(indiceA.x, indiceA.y, palmoA.x, palmoA.y)
@@ -60,38 +61,33 @@ async function draw() {
 			const mediopalmo = dist(medioA.x, medioA.y, palmoA.x, palmoA.y)
 			const anularepalmo = dist(anulareA.x, anulareA.y, palmoA.x, palmoA.y)
 			const mignolopalmo = dist(mignoloA.x, mignoloA.y, palmoA.x, palmoA.y)
+			const pollicecentroB = dist(polliceA.x, polliceA.y, centroB.x, centroB.y)
 
-			if (pollicecentro>50 && indicepalmo<100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo<100){
-				background(255)
-				image(img1, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
-			}
-			// else if (pollicecentro<100 && indicepalmo>100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo<100){
-			// 	background(255)
-			// 	image(img1, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
-			// }
-			else if (pollicecentro>50 && indicepalmo>50 && mediopalmo<150 && anularepalmo<100 && mignolopalmo<100){
-				background(255)
-				image(img2, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
-			}
-			// else if (pollicecentro<100 && indicepalmo>100 && mediopalmo>100 && anularepalmo<100 && mignolopalmo<100){
-			// 	background(255)
-			// 	image(img2, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
-			// }
-			else if (pollicecentro<100 && indicepalmo<100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo<100){
-				background(255)
-				image(img0, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
-			}
-			else if (pollicecentro>40 && indicepalmo>40 && mediopalmo>50 && anularepalmo<100 && mignolopalmo<100){
-				background(255)
-				image(img3, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
-			}
-			else if (pollicecentro>40 && indicepalmo>40 && mediopalmo>40 && anularepalmo>40 && mignolopalmo<100){
+			if (pollicecentro<100 && indicepalmo<100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo>50){
 				background(255)
 				image(img4, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
 			}
-			else if (pollicecentro>50 && indicepalmo>50 && mediopalmo>50 && anularepalmo>50 && mignolopalmo>50){
+		
+			else if (pollicecentro<100 && indicepalmo<100 && mediopalmo<100 && anularepalmo>50 && mignolopalmo>50){
+				background(255)
+				image(img3, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			
+			else if (pollicecentro<100 && indicepalmo<100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo<100){
 				background(255)
 				image(img5, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentro<100 && indicepalmo<100 && mediopalmo>50 && anularepalmo>50 && mignolopalmo>50){
+				background(255)
+				image(img2, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentro<75 && indicepalmo>100 && mediopalmo>50 && anularepalmo>100 && mignolopalmo>100){
+				background(255)
+				image(img1, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentroB>50 && indicepalmo>50 && mediopalmo>50 && anularepalmo>50 && mignolopalmo>50){
+				background(255)
+				image(img0, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
 			}
 			
 			// else if (mediopalmo<100){

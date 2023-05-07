@@ -1,0 +1,126 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 7.0-c000 1.000000, 0000/00/00-00:00:00        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+    xmlns:exifEX="http://cipa.jp/exif/1.0/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmp:CreatorTool="NIKON Z 6 Ver.03.20     "
+   xmp:CreateDate="2023-05-02T13:38:50.56+01:00"
+   xmp:Rating="0"
+   xmp:ModifyDate="2023-05-02T13:38:50.56+01:00"
+   xmp:MetadataDate="2023-05-06T13:55:38+02:00"
+   crd:Exposure2012="0.00"
+   crd:Highlights2012="0"
+   crd:Shadows2012="0"
+   crd:LuminanceSmoothing="49"
+   crd:LuminanceNoiseReductionDetail="75"
+   crd:LuminanceNoiseReductionContrast="0"
+   crd:ColorNoiseReduction="10"
+   crd:ColorNoiseReductionDetail="50"
+   crd:ColorNoiseReductionSmoothness="50"
+   crd:Sharpness="40"
+   crd:SharpenRadius="2.00"
+   crd:SharpenDetail="25"
+   crd:SharpenEdgeMasking="0"
+   crd:Contrast2012="0"
+   crd:Saturation="0"
+   crd:CameraProfile="Camera Standard"
+   tiff:Make="NIKON CORPORATION"
+   tiff:Model="NIKON Z 6"
+   tiff:Orientation="1"
+   tiff:ImageWidth="6048"
+   tiff:ImageLength="4024"
+   tiff:PhotometricInterpretation="2"
+   tiff:SamplesPerPixel="3"
+   exif:ExifVersion="0231"
+   exif:ExposureTime="1/100"
+   exif:ShutterSpeedValue="6643856/1000000"
+   exif:FNumber="4/1"
+   exif:ApertureValue="4/1"
+   exif:ExposureProgram="1"
+   exif:SensitivityType="2"
+   exif:RecommendedExposureIndex="800"
+   exif:ExposureBiasValue="0/6"
+   exif:MeteringMode="5"
+   exif:LightSource="10"
+   exif:FocalLength="700/10"
+   exif:SensingMethod="2"
+   exif:FileSource="3"
+   exif:SceneType="1"
+   exif:FocalLengthIn35mmFilm="70"
+   exif:CustomRendered="1"
+   exif:ExposureMode="1"
+   exif:WhiteBalance="1"
+   exif:SceneCaptureType="0"
+   exif:GainControl="1"
+   exif:Contrast="0"
+   exif:Saturation="0"
+   exif:Sharpness="0"
+   exif:SubjectDistanceRange="0"
+   exif:FocalPlaneXResolution="55150724/32768"
+   exif:FocalPlaneYResolution="55150724/32768"
+   exif:FocalPlaneResolutionUnit="3"
+   exif:LensMake="NIKON"
+   exif:DateTimeOriginal="2023-05-02T13:38:50.56+01:00"
+   exif:PixelXDimension="6048"
+   exif:PixelYDimension="4024"
+   aux:SerialNumber="6064941"
+   aux:LensInfo="240/10 700/10 400/100 400/100"
+   aux:Lens="NIKKOR Z 24-70mm f/4 S"
+   aux:LensSerialNumber="20166676"
+   aux:ImageNumber="15693"
+   exifEX:LensModel="NIKKOR Z 24-70mm f/4 S"
+   exifEX:LensMake="NIKON"
+   photoshop:DateCreated="2023-05-02T13:38:50.56+01:00"
+   photoshop:ColorMode="3"
+   photoshop:ICCProfile=""
+   photoshop:SidecarForExtension="NEF"
+   photoshop:EmbeddedXMPDigest="428D9D2E83CE2D3682E043C89EEE92FE"
+   xmpMM:DocumentID="AA4C518ED30B96F26A607AF4EDBA6E52"
+   xmpMM:OriginalDocumentID="AA4C518ED30B96F26A607AF4EDBA6E52"
+   xmpMM:InstanceID="xmp.iid:023f9836-7a0c-4058-9612-074b581947da"
+   dc:format="image/x-nikon-nef">
+   <tiff:BitsPerSample>
+    <rdf:Seq>
+     <rdf:li>16</rdf:li>
+     <rdf:li>16</rdf:li>
+     <rdf:li>16</rdf:li>
+    </rdf:Seq>
+   </tiff:BitsPerSample>
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>800</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <exif:Flash
+    exif:Fired="False"
+    exif:Return="0"
+    exif:Mode="0"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:761046ea-99e6-4440-9a16-2bd3a0ec6241"
+      stEvt:when="2023-05-06T13:55:31+02:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 15.3"
+      stEvt:changed="/metadata"/>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:023f9836-7a0c-4058-9612-074b581947da"
+      stEvt:when="2023-05-06T13:55:38+02:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 15.3 (Macintosh)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

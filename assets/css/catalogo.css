@@ -37,23 +37,25 @@ header {
 }
 
 hr{
-	height: 2px;
+	height: 1.5px;
 	background: black;
-	border: none;
-	margin-left: -0px;
-	margin-right: 200px;
-	margin-top: 5px;
-	margin-bottom: -10px;
+	border: 1px;
+	border-color: black;
+	margin-right: -200px;
+	margin-left: -20px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+
 }
+
+
 
 img {
-	height: 30px;
-	margin-left: -10px;
-	margin-top: 5px;
-}
-
-.spazio{
-	tab-size: 1;
+	height: 75px;
+	margin-left: -18px;
+	margin-right: 10px;
+	margin-bottom: -0px;
+	margin-top: 0px;
 }
 
 .gg{

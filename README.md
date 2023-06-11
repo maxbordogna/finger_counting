@@ -34,12 +34,6 @@ L'aspetto più importante è stato quello di scegliere una modalità di presenta
 il contenuto e la funzionalità degli argomenti trattati.
 
 
-[<img src="img_readme/groucho_glasses.jpg" width="150" alt="Groucho glasses">]()
-<br>
-<i>Groucho glasses </i>
-<br>
-
-
 
 ## Design dell’interfraccia e modalià di interazione
 Tutte le scelte sono state effettuate per aumentare l'ergonomia del sito attraverso semplicità, chiarezza e coerenza. 
@@ -48,7 +42,14 @@ Non è stato fatto uso del colore, lo sfondo è sempre bianco, il testo è sempr
 
 <br><br>
 
-[<img src="img_readme/stato_base.png" width="200" alt="Groucho glasses">]()[<img src="img_readme/stato_1.png" width="200" alt="Groucho glasses">]()[<img src="img_readme/stato_2.png" width="200" alt="Groucho glasses">]()
+Il bottone per tornare al sito web del corso è posto nella scritta "Antologia a due mani" nel footer in basso a sinistra.
+L'unica pagina all'interno del sito sviluppata in modo differente, è quella di interazione. Essa presenta 
+una navigazione secondaria che permette di selezionare la tipologia di metodo di conteggio desiderato. L'interazione avviene attraverso la webcam che, 
+riprendendo e trasmettendo quanto avviene di fronte al computer, permette all'utente di interagire direttamente con la piattaforma. 
+La situazione base presenta una legenda esemplificativa sul metodo di conteggio selezionato sulla sinistra e l'indicazione di alzare la mano ed indicare un numero al centro. 
+Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto corretto è rappresentato attraverso la mano, il numero corrispondente compare al centro della schermata.
+
+[<img src="img_readme/interazione_1.png" width="200" alt="Interazione base">]()[<img src="img_readme/interazione_1.png" width="200" alt="Interazione in corso">]()[<img src="img_readme/catalogo.png" width="200" alt="Catalogazione">]()[<img src="img_readme/binario.png" width="200" alt="Sistema binario">]()
 <br>
 <i>Stati: base, tranquillo e pazzo </i>
 <br>

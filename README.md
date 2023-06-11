@@ -49,9 +49,9 @@ riprendendo e trasmettendo quanto avviene di fronte al computer, permette all'ut
 La situazione base presenta una legenda esemplificativa sul metodo di conteggio selezionato sulla sinistra e l'indicazione di alzare la mano ed indicare un numero al centro. 
 Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto corretto è rappresentato attraverso la mano, il numero corrispondente compare al centro della schermata.
 
-[<img src="img_readme/interazione_1.png" width="200" alt="Interazione base">]()[<img src="img_readme/interazione_1.png" width="200" alt="Interazione in corso">]()[<img src="img_readme/catalogo.png" width="200" alt="Catalogazione">]()[<img src="img_readme/binario.png" width="200" alt="Sistema binario">]()
+[<img src="img_readme/interazione_1.png" width="200" alt="Interazione base">]()[<img src="img_readme/interazione_2.png" width="200" alt="Interazione in corso">]()[<img src="img_readme/catalogo.png" width="200" alt="Catalogazione">]()[<img src="img_readme/binario.png" width="200" alt="Sistema binario">]()
 <br>
-<i>Stati: base, tranquillo e pazzo </i>
+<i>Schermate di: interazione base, interazione in corso, catalogazione, sistema binario </i>
 <br>
 
 

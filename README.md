@@ -44,11 +44,13 @@ Tutte le pagine del sito web presentano la medesima impostazione: navigazione in
 Non è stato fatto uso del colore, lo sfondo è sempre bianco, il testo è sempre nero e le immagini sono in scala di grigi. 
 
 
-Il bottone per tornare al sito web del corso è posto nella scritta "Antologia a due mani" nel footer in basso a sinistra.
+Il bottone per tornare al sito web del corso è posto nella sezione con le informazioni del progetto "Antologia a due mani" nel footer in basso a sinistra.
+
+
 L'unica pagina all'interno del sito sviluppata in modo differente, è quella di interazione. Essa presenta 
 una navigazione secondaria che permette di selezionare la tipologia di metodo di conteggio desiderato. L'interazione avviene attraverso la webcam che, 
 riprendendo e trasmettendo quanto avviene di fronte al computer, permette all'utente di interagire direttamente con la piattaforma. 
-La situazione base presenta una legenda esemplificativa sul metodo di conteggio selezionato sulla sinistra e l'indicazione di alzare la mano ed indicare un numero al centro. 
+Una legenda esemplificativa sul metodo di conteggio selezionato è posta sulla sinistra della pagina e gli elementi interattivi al centro. 
 Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto corretto è rappresentato attraverso la mano, il numero corrispondente compare al centro della schermata.
 
 [<img src="img_readme/interazione_1.png" width="200" alt="Interazione base">]()[<img src="img_readme/interazione_2.png" width="200" alt="Interazione in corso">]()[<img src="img_readme/catalogo.png" width="200" alt="Catalogazione">]()[<img src="img_readme/binario.png" width="200" alt="Sistema binario">]()

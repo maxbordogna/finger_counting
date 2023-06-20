@@ -63,74 +63,60 @@ Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto 
 L'intero sito è strutturato su un sistema di 10 colonne, le quali vengono sfruttate per l'organizzazione dei contenuti all'interno delle varie pagine.
 Qui di seguito un esempio di suddivisione in colonne nel CSS:
 ```CSS
+/*esempio suddivisione in colonne*/
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 ```
 
+L'interfaccia interattiva invece riconosce in numeri a dipendenza della distanza tra i vari punti della mano, di seguito un esempio:
+
 ```JavaScript
-//funzione occhi mappati
-function pupillaFermaSx(pfSxX, pfSxY) {
-	let varX = map (pfSxX, 0, 640, -20, +20)
-    let varY = map (pfSxY, 0, 480, -20, +20)
-
-	noStroke()
-	fill(0)
-	ellipse (pfSxX + varX, pfSxY + varY, 35, 35)
-}
-
 //----------------------------------------------
-//esempio p5js modificato ed utilizzato per i capelli
-//il codice realmente utilizzato è eccessivamente lungo per essere inserito
-let s1, s2;
-let gravity = 9.0;
-let mass = 2.0;
+//Esempio codice riconoscimento dei numeri
+if (hands.length == 1) {
 
-function setup() {
-  createCanvas(720, 400);
-  fill(255, 126);
-  // Inputs: x, y, mass, gravity
-  s1 = new Spring2D(0.0, width / 2, mass, gravity);
-  s2 = new Spring2D(0.0, width / 2, mass, gravity);
-}
+			const manoA = hands[0]
 
-function draw() {
-  background(0);
-  s1.update(mouseX, mouseY);
-  s1.display(mouseX, mouseY);
-  s2.update(s1.x, s1.y);
-  s2.display(s1.x, s1.y);
-}
+			const indiceA  = manoA.keypoints[8]
+			const polliceA = manoA.keypoints[4]
+			const medioA = manoA.keypoints[12]
+			const anulareA = manoA.keypoints[16]
+			const mignoloA = manoA.keypoints[20]
+			const palmoA = manoA.keypoints[0]
+			const centroA = manoA.keypoints[5]
+			const centroB = manoA.keypoints[13]
 
-function Spring2D(xpos, ypos, m, g) {
-  this.x = xpos;// The x- and y-coordinates
-  this.y = ypos;
-  this.vx = 0; // The x- and y-axis velocities
-  this.vy = 0;
-  this.mass = m;
-  this.gravity = g;
-  this.radius = 30;
-  this.stiffness = 0.2;
-  this.damping = 0.7;
+			const indicepalmo = dist(indiceA.x, indiceA.y, palmoA.x, palmoA.y)
+			const pollicecentro = dist(polliceA.x, polliceA.y, centroA.x, centroA.y)
+			const mediopalmo = dist(medioA.x, medioA.y, palmoA.x, palmoA.y)
+			const anularepalmo = dist(anulareA.x, anulareA.y, palmoA.x, palmoA.y)
+			const mignolopalmo = dist(mignoloA.x, mignoloA.y, palmoA.x, palmoA.y)
+			const pollicecentroB = dist(polliceA.x, polliceA.y, centroB.x, centroB.y)
 
-  this.update = function(targetX, targetY) {
-    let forceX = (targetX - this.x) * this.stiffness;
-    let ax = forceX / this.mass;
-    this.vx = this.damping * (this.vx + ax);
-    this.x += this.vx;
-    let forceY = (targetY - this.y) * this.stiffness;
-    forceY += this.gravity;
-    let ay = forceY / this.mass;
-    this.vy = this.damping * (this.vy + ay);
-    this.y += this.vy;
-  }
-
-  this.display = function(nx, ny) {
-    noStroke();
-    ellipse(this.x, this.y, this.radius * 2, this.radius * 2);
-    stroke(255);
-    line(this.x, this.y, nx, ny);
-  }
-}
+			if (pollicecentro>50 && indicepalmo>50 && mediopalmo>50 && anularepalmo>50 && mignolopalmo<100){
+				background(255)
+				image(img1, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentro>50 && indicepalmo>100 && mediopalmo>100 && anularepalmo<100 && mignolopalmo<100){
+				background(255)
+				image(img2, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentro>50 && indicepalmo>100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo<100){
+				background(255)
+				image(img3, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentro>50 && indicepalmo<100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo<100){
+				background(255)
+				image(img4, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentro<50 && indicepalmo<100 && mediopalmo<100 && anularepalmo<100 && mignolopalmo<100){
+				background(255)
+				image(img5, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}
+			else if (pollicecentro>50 && indicepalmo>100 && mediopalmo>100 && anularepalmo>100 && mignolopalmo>100){
+				background(255)
+				image(img0, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
+			}}
 ```
 
 ## Target e contesto d’uso

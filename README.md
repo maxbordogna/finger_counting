@@ -12,12 +12,13 @@ Breve video dimostrativo<br>
 LINK VIDEO
 
 ## Introduzione e tema
-La consegna consisteva nell'effettuare una ricerca su un tema dato, nel mio caso si trattava
+La consegna consisteva nell'effettuare una ricerca su un argomento dato legato al tema generale delle mani, nel mio caso si trattava
 del "conteggio con le mani". Dopo aver fatto una ricerca generale per ottenere le informazioni 
-di base sull'argomento, ho stilato la lista dei tre argomenti più importanti da trattare:
-storia
-diversità culturali
-sistema binario
+di base, ho stilato la lista dei tre argomenti più importanti da trattare:
+<br>
+storia<br>
+diversità culturali<br>
+sistema binario<br>
 <br><br>
 Ho quindi proseguito con l'approfondire i tre capitoli, in particolare svariati documenti trovati online 
 di diverse università mi hanno permesso di ottenere le informazioni necessarie.

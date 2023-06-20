@@ -16,9 +16,9 @@ La consegna consisteva nell'effettuare una ricerca su un argomento dato legato a
 del "conteggio con le mani". Dopo aver fatto una ricerca generale per ottenere le informazioni 
 di base, ho stilato la lista dei tre argomenti più importanti da trattare:
 <br>
-&nbsp storia<br>
-<&nbsp> diversità culturali<br>
-<&nbsp> sistema binario<br>
+storia<br>
+diversità culturali<br>
+sistema binario<br>
 <br><br>
 Ho quindi proseguito con l'approfondire i tre capitoli, in particolare svariati documenti trovati online 
 di diverse università mi hanno permesso di ottenere le informazioni necessarie.

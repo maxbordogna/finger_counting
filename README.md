@@ -44,7 +44,7 @@ Tutte le pagine del sito web presentano la medesima impostazione: navigazione in
 Non è stato fatto uso del colore, lo sfondo è sempre bianco, il testo è sempre nero e le immagini sono in scala di grigi. 
 
 
-Il bottone per tornare al sito web del corso è posto nella sezione con le informazioni del progetto "Antologia a due mani" nel footer in basso a sinistra.
+Il bottone per tornare al sito web del corso è posto nella sezione con le informazioni del progetto "Antologia a due mani" nel footer in basso a sinistra.<br>
 
 
 L'unica pagina all'interno del sito sviluppata in modo differente, è quella di interazione. Essa presenta 

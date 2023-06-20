@@ -60,16 +60,11 @@ Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto 
 
 
 ## Tecnologia usata
-Per la simulazione della fisicità dei capelli è stato utilizzato l’esempio sul sito di p5js chiamato “Chain”, 
-codice che collega più elementi attraverso la loro posizione imitando una catena e 
-determinandone lo stato attraverso una simulazione della gravità e del peso. Questo esempio è 
-stato modificato ed implementato all’interno del mio codice ottenendo dei capelli che seguono 
-la posizione della mano e che cambiano lunghezza, peso e gravità a dipendenza dello stato (umore) della marionetta.
+L'intero sito è strutturato su un sistema di 10 colonne, le quali vengono sfruttate per l'organizzazione dei contenuti all'interno delle varie pagine.
 
-Il movimento degli occhi nello stato base è ottenuto attraverso la funzione map che mi ha permesso 
-di mappare la larghezza e l’altezza del canvas nello spostamento massimo che le pupille possono 
-effettuare attorno al keypoint di riferimento.
-
+```CSS
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+```
 
 ```JavaScript
 //funzione occhi mappati

@@ -17,8 +17,8 @@ del "conteggio con le mani". Dopo aver fatto una ricerca generale per ottenere l
 di base, ho stilato la lista dei tre argomenti più importanti da trattare:
 <br>
 &nbsp storia<br>
-&nbsp diversità culturali<br>
-&nbsp sistema binario<br>
+<&nbsp> diversità culturali<br>
+<&nbsp> sistema binario<br>
 <br><br>
 Ho quindi proseguito con l'approfondire i tre capitoli, in particolare svariati documenti trovati online 
 di diverse università mi hanno permesso di ottenere le informazioni necessarie.

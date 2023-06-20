@@ -43,7 +43,6 @@ Tutte le scelte sono state effettuate per aumentare l'ergonomia del sito attrave
 Tutte le pagine del sito web presentano la medesima impostazione: navigazione in alto a sinistra, footer in basso e contenuti nel centro sinistra della finestra.
 Non è stato fatto uso del colore, lo sfondo è sempre bianco, il testo è sempre nero e le immagini sono in scala di grigi. 
 
-<br>
 
 Il bottone per tornare al sito web del corso è posto nella scritta "Antologia a due mani" nel footer in basso a sinistra.
 L'unica pagina all'interno del sito sviluppata in modo differente, è quella di interazione. Essa presenta 

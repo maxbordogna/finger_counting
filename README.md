@@ -34,7 +34,7 @@ Non ho sfruttato un modello preciso come riferimento progettuale, ho riflettuto 
 da inserire e le loro esigenze di impaginazione e creazione.
 
 L'aspetto più importante è stato quello di scegliere una modalità di presentazione che valorizzasse ed esaltasse 
-il contenuto e la funzionalità degli argomenti trattati.
+il contenuto e la funzionalità degli argomenti trattati. 
 
 
 

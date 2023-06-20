@@ -52,7 +52,7 @@ una navigazione secondaria che permette di selezionare la tipologia di metodo di
 riprendendo e trasmettendo quanto avviene di fronte al computer, permette all'utente di interagire direttamente con la piattaforma. 
 Una legenda esemplificativa sul metodo di conteggio selezionato è posta sulla sinistra della pagina e gli elementi interattivi al centro. 
 Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto corretto è rappresentato attraverso la mano, il numero corrispondente compare al centro della schermata.
-<i>Schermate di:<br>
+<br><br><i>Schermate di:<br>
 interazione base<br>
 [<img src="img_readme/interazione_1.png" width="200" alt="Interazione base">]()<br><br>
 interazione in corso<br>

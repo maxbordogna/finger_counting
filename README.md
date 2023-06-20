@@ -60,7 +60,8 @@ Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto 
 
 
 ## Tecnologia usata
-L'intero sito è strutturato su un sistema di 10 colonne, le quali vengono sfruttate per l'organizzazione dei contenuti all'interno delle varie pagine.
+L'intero sito è strutturato su diverse pagine, ogniuna appartenente ad un capitolo specifico, per raggiungerle basta utilizzare la navigazione in alto a sinistra e cliccare la pagina desiderata.
+Tutte le pagine sono strutturate con un sistema di 10 colonne, colonne che vengono sfruttate per l'organizzazione dei contenuti.
 Qui di seguito un esempio di suddivisione in colonne nel CSS:
 ```CSS
 /*----------------------------------------------*/

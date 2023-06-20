@@ -8,7 +8,7 @@ Elaborato 2: Antologia a due mani
 Autore: Massimo Bordogna  
 [MediaPipe demo-ES6](https://ixd-supsi.github.io/2023/esempi/mp_hands/es6/1_landmarks)
 
-Breve video dimostrativo
+Breve video dimostrativo<br>
 LINK VIDEO
 
 ## Introduzione e tema

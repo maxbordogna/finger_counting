@@ -63,6 +63,7 @@ Dal momento che una mano viene riconosciuta, la scritta scompare e, se il gesto 
 L'intero sito è strutturato su un sistema di 10 colonne, le quali vengono sfruttate per l'organizzazione dei contenuti all'interno delle varie pagine.
 Qui di seguito un esempio di suddivisione in colonne nel CSS:
 ```CSS
+display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
 ```
 

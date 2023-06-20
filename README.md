@@ -57,11 +57,10 @@ interazione base<br>
 [<img src="img_readme/interazione_1.png" width="200" alt="Interazione base">]()<br><br>
 interazione in corso<br>
 [<img src="img_readme/interazione_2.png" width="200" alt="Interazione in corso">]()<br><br>
-
-[<img src="img_readme/catalogo.png" width="200" alt="Catalogazione">]()
-[<img src="img_readme/binario.png" width="200" alt="Sistema binario">]()
-<br>
- interazione base, interazione in corso, catalogazione, sistema binario 
+catalogazione<br>
+[<img src="img_readme/catalogo.png" width="200" alt="Catalogazione">]()<br><br>
+sistema binario<br>
+[<img src="img_readme/binario.png" width="200" alt="Sistema binario">]()<br><br>
 <br>
 
 

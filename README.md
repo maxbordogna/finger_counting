@@ -122,11 +122,8 @@ if (hands.length == 1) {
 ```
 
 ## Target e contesto d’uso
-Non avendo costruito l’elaborato pensando in anticipo ad un target e ad un contesto specifico è 
-difficile individuarne uno perfettamente calzante. Ovviamente andrebbe quindi adeguato al suo utilizzo 
-finale, potrei però vedere la marionetta applicata ad un contesto espositivo quale magari una fiera 
-o un’esposizione in cui i visitatori possono provare allo stand di riferimento la marionetta. 
-Oppure potrebbe essere utilizzata all’interno di un sito web come interazione con l’utente stuzzicandone 
-l’interesse e creando un legame di interazione attiva.
+Il target di questo progetto sono persone di ogni età con accesso ad un computer, che hanno la necessità o il desiderio di informarsi sul tema del conteggio con le mani. 
+Il contesto d'uso può quindi variare, potrebbe essere semplicemente un utilizzo personale e casalingo, oppure per scopi didattici può essere fruito in contesti educativi.
 
-[<img src="doc/munari.jpg" width="300" alt="Supplemento al dizionario italiano">]()
+
+

@@ -1,5 +1,5 @@
 let images = [];  // Array to store the images
-let gridSize = 40;  // Number of images in each row and column
+let gridSize = 20;  // Number of images in each row and column (increased by 4)
 let imageWidth, imageHeight;  // Width and height of each image
 
 function preload() {
@@ -11,24 +11,23 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
-  imageWidth = windowWidth / gridSize;
-  imageHeight = imageWidth; // Set imageHeight equal to imageWidth to maintain aspect ratio
+  createCanvas(windowWidth, windowHeight);  // Adjust the canvas size as desired
+  imageWidth = width / gridSize;
+  imageHeight = imageWidth * (images[0].height / images[0].width);  // Calculate height based on aspect ratio
   frameRate(10);  // Adjust the frame rate if needed
 }
 
 function draw() {
+  scale(0.3);
+  translate(windowWidth, windowHeight-windowHeight/10);
   background(255);
-
-  let rowY = (windowHeight - imageHeight) / 2; // Calculate the y position for the row
-
-  for (let i = 0; i < gridSize; i++) {
-    let index = floor(random(images.length));
-    let x = i * imageWidth;
-    let y = rowY;
-    let img = images[index];
-    let aspectRatio = img.width / img.height;
-    let scaledWidth = imageHeight * aspectRatio;
-    image(img, x, y, scaledWidth, imageHeight);
+  
+  for (let i = 0; i < gridSize - 2; i++) {  // Updated loop condition to exclude 2 rows
+    for (let j = 0; j < gridSize + 4; j++) {  // Updated loop condition to add 4 columns
+      let index = floor(random(images.length));
+      let x = j * imageWidth;
+      let y = i * imageHeight;
+      image(images[index], x, y, imageWidth, imageHeight);
+    }
   }
 }

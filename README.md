@@ -122,17 +122,20 @@ if (hands.length == 1) {
 				image(img0, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
 			}}
 ```
+
 <br>
 La home page presenta una piccola animazione su una riga che randomizza la comparizione di alcune delle immagini del conteggio con le mani, questo è il codice usato per costruirla.
 ```JavaScript
-let images = [];  // Array to store the images
-let gridSize = 40;  // Number of images in each row and column
-let imageWidth, imageHeight;  // Width and height of each image
+//----------------------------------------------
+//Codice di generazione dell'animazione nella homepage
+let images = []; 
+let gridSize = 40;  
+let imageWidth, imageHeight;  
 
 function preload() {
   // Load the images
   for (let i = 0; i < gridSize * gridSize; i++) {
-    let imageFilename = `img/image${i % 6}.png`;  // Image filenames and folder
+    let imageFilename = `img/image${i % 6}.png`;  
     images.push(loadImage(imageFilename));
   }
 }
@@ -140,14 +143,14 @@ function preload() {
 function setup() {
   createCanvas(windowWidth, windowHeight);
   imageWidth = windowWidth / gridSize;
-  imageHeight = imageWidth; // Set imageHeight equal to imageWidth to maintain aspect ratio
-  frameRate(10);  // Adjust the frame rate if needed
+  imageHeight = imageWidth; 
+  frameRate(10);  
 }
 
 function draw() {
   background(255);
 
-  let rowY = (windowHeight - imageHeight) / 2; // Calculate the y position for the row
+  let rowY = (windowHeight - imageHeight) / 2; 
 
   for (let i = 0; i < gridSize; i++) {
     let index = floor(random(images.length));
@@ -159,7 +162,6 @@ function draw() {
     image(img, x, y, scaledWidth, imageHeight);
   }
 }
-
 ```
 
 ## Target e contesto d’uso

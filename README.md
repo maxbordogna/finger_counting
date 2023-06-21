@@ -22,17 +22,14 @@ sistema binario</b>
 <br><br>
 Ho quindi proseguito con l'approfondire i tre capitoli, in particolare svariati documenti trovati online 
 di diverse ricerche universitarie mi hanno permesso di ottenere le informazioni necessarie.
-<br><br>
 Oltre alla ricerca è stata inserito un piccolo sistema interattivo che permette (a dipendenza della tipologia di 
 conteggio selezionata) di riconoscere il numero che l'utente mostra alla webcam. 
-<br><br>
 Infine una catalogazione delle principali metodologie di conteggio con le mani racchiude le 
 informazioni essenziali per comprenderle e metterle in pratica.
 
 ## Riferimenti progettuali
 Non ho sfruttato un modello preciso come riferimento progettuale, ho riflettuto più che altro sui diversi contenuti 
 da inserire e le loro esigenze di impaginazione e creazione.
-
 L'aspetto più importante è stato quello di scegliere una modalità di presentazione che valorizzasse ed esaltasse 
 il contenuto e la funzionalità degli argomenti trattati.
 
@@ -75,7 +72,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 ```
 <br>
-L'interfaccia interattiva invece riconosce in numeri a dipendenza della distanza tra i vari punti della mano, di seguito un esempio:
+L'interfaccia interattiva invece riconosce i numeri a dipendenza della distanza tra i vari punti della mano, di seguito un esempio:
 
 ```JavaScript
 //----------------------------------------------
@@ -128,7 +125,7 @@ if (hands.length == 1) {
 
 ## Target e contesto d’uso
 Il target di questo progetto sono persone di ogni età con accesso ad un computer, che hanno la necessità o il desiderio di informarsi sul tema del conteggio con le mani. 
-Il contesto d'uso può quindi variare, potrebbe essere semplicemente un utilizzo personale e casalingo, oppure per scopi didattici può essere fruito in contesti educativi.
+Il contesto d'uso può quindi variare, potrebbe essere semplicemente un utilizzo personale e casalingo oppure, per scopi didattici può essere fruito in contesti educativi.
 
 
 

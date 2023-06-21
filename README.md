@@ -72,7 +72,7 @@ display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 ```
 <br>
-L'interfaccia interattiva invece riconosce in numeri a dipendenza della distanza tra i vari punti della mano, di seguito un esempio:
+L'interfaccia interattiva invece riconosce i numeri a dipendenza della distanza tra i vari punti della mano, di seguito un esempio:
 
 ```JavaScript
 //----------------------------------------------

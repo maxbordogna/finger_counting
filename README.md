@@ -125,6 +125,7 @@ if (hands.length == 1) {
 
 <br>
 La home page presenta una piccola animazione su una riga che randomizza la comparizione di alcune delle immagini del conteggio con le mani, questo è il codice usato per costruirla.
+
 ```JavaScript
 //----------------------------------------------
 //Codice di generazione dell'animazione nella homepage
@@ -163,6 +164,7 @@ function draw() {
   }
 }
 ```
+
 
 ## Target e contesto d’uso
 Il target di questo progetto sono persone di ogni età con accesso ad un computer, che hanno la necessità o il desiderio di informarsi sul tema del conteggio con le mani. 

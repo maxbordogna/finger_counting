@@ -63,7 +63,7 @@ sistema binario<br>
 
 ## Tecnologia usata
 L'intero sito è strutturato su diverse pagine, ogniuna appartenente ad un capitolo specifico, per raggiungerle basta utilizzare la navigazione in alto a sinistra e cliccare la pagina desiderata.
-Tutte le pagine sono strutturate con un sistema di 10 colonne, colonne che vengono sfruttate per l'organizzazione dei contenuti.
+Tutte le pagine sono strutturate con un sistema di 10 colonne, (tranne se la dimensione è inferiore ai 600px, in quel caso diventa un sistema a una colonna) le 10 colonne vengono sfruttate per l'organizzazione dei contenuti.
 Qui di seguito un esempio di suddivisione in colonne nel CSS:
 ```CSS
 /*----------------------------------------------*/
@@ -122,6 +122,49 @@ if (hands.length == 1) {
 				image(img0, width/2-371/2/2, height/2- 586/2/2, 371/2, 586/2)
 			}}
 ```
+
+<br>
+La home page presenta una piccola animazione su una riga che randomizza la comparizione di alcune delle immagini del conteggio con le mani, questo è il codice usato per costruirla.
+
+```JavaScript
+//----------------------------------------------
+//Codice di generazione dell'animazione nella homepage
+let images = []; 
+let gridSize = 40;  
+let imageWidth, imageHeight;  
+
+function preload() {
+  // Load the images
+  for (let i = 0; i < gridSize * gridSize; i++) {
+    let imageFilename = `img/image${i % 6}.png`;  
+    images.push(loadImage(imageFilename));
+  }
+}
+
+function setup() {
+  createCanvas(windowWidth, windowHeight);
+  imageWidth = windowWidth / gridSize;
+  imageHeight = imageWidth; 
+  frameRate(10);  
+}
+
+function draw() {
+  background(255);
+
+  let rowY = (windowHeight - imageHeight) / 2; 
+
+  for (let i = 0; i < gridSize; i++) {
+    let index = floor(random(images.length));
+    let x = i * imageWidth;
+    let y = rowY;
+    let img = images[index];
+    let aspectRatio = img.width / img.height;
+    let scaledWidth = imageHeight * aspectRatio;
+    image(img, x, y, scaledWidth, imageHeight);
+  }
+}
+```
+
 
 ## Target e contesto d’uso
 Il target di questo progetto sono persone di ogni età con accesso ad un computer, che hanno la necessità o il desiderio di informarsi sul tema del conteggio con le mani. 

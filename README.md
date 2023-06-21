@@ -8,7 +8,7 @@ Elaborato 2: Antologia a due mani
 Autore: Massimo Bordogna  
 [MediaPipe demo-ES6](https://ixd-supsi.github.io/2023/esempi/mp_hands/es6/1_landmarks)
 
-Breve video dimostrativo<br>
+Download breve video dimostrativo<br>
 https://github.com/maxbordogna/finger_counting/blob/main/img_readme/conteggio_con_le_mani.mp4
 
 ## Introduzione e tema

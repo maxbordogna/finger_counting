@@ -125,7 +125,7 @@ if (hands.length == 1) {
 
 ## Target e contesto d’uso
 Il target di questo progetto sono persone di ogni età con accesso ad un computer, che hanno la necessità o il desiderio di informarsi sul tema del conteggio con le mani. 
-Il contesto d'uso può quindi variare, potrebbe essere semplicemente un utilizzo personale e casalingo, oppure per scopi didattici può essere fruito in contesti educativi.
+Il contesto d'uso può quindi variare, potrebbe essere semplicemente un utilizzo personale e casalingo oppure, per scopi didattici può essere fruito in contesti educativi.
 
 
 

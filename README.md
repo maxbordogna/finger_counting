@@ -22,10 +22,8 @@ sistema binario</b>
 <br><br>
 Ho quindi proseguito con l'approfondire i tre capitoli, in particolare svariati documenti trovati online 
 di diverse ricerche universitarie mi hanno permesso di ottenere le informazioni necessarie.
-<br><br>
 Oltre alla ricerca è stata inserito un piccolo sistema interattivo che permette (a dipendenza della tipologia di 
 conteggio selezionata) di riconoscere il numero che l'utente mostra alla webcam. 
-<br><br>
 Infine una catalogazione delle principali metodologie di conteggio con le mani racchiude le 
 informazioni essenziali per comprenderle e metterle in pratica.
 

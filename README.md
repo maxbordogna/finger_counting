@@ -9,7 +9,7 @@ Autore: Massimo Bordogna
 [MediaPipe demo-ES6](https://ixd-supsi.github.io/2023/esempi/mp_hands/es6/1_landmarks)
 
 Breve video dimostrativo<br>
-https://github.com/maxbordogna/finger_counting/blob/main/img_readme/conteggio_con_le_mani.mp4
+LINK VIDEO
 
 ## Introduzione e tema
 La consegna consisteva nell'effettuare una ricerca su un argomento dato legato al tema generale delle mani, nel mio caso si trattava
@@ -34,7 +34,7 @@ Non ho sfruttato un modello preciso come riferimento progettuale, ho riflettuto 
 da inserire e le loro esigenze di impaginazione e creazione.
 
 L'aspetto più importante è stato quello di scegliere una modalità di presentazione che valorizzasse ed esaltasse 
-il contenuto e la funzionalità degli argomenti trattati. 
+il contenuto e la funzionalità degli argomenti trattati.
 
 
 

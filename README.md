@@ -63,7 +63,7 @@ sistema binario<br>
 
 ## Tecnologia usata
 L'intero sito è strutturato su diverse pagine, ogniuna appartenente ad un capitolo specifico, per raggiungerle basta utilizzare la navigazione in alto a sinistra e cliccare la pagina desiderata.
-Tutte le pagine sono strutturate con un sistema di 10 colonne, colonne che vengono sfruttate per l'organizzazione dei contenuti.
+Tutte le pagine sono strutturate con un sistema di 10 colonne, (tranne se la dimensione è inferiore ai 600px, in quel caso diventa un sistema a una colonna) le 10 colonne vengono sfruttate per l'organizzazione dei contenuti.
 Qui di seguito un esempio di suddivisione in colonne nel CSS:
 ```CSS
 /*----------------------------------------------*/
